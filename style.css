@@ -1,5 +1,6 @@
 body
-{
+{   
+    text-align: center;
     padding-top:800px;
     margin:0px;
 }
@@ -45,7 +46,7 @@ h2{
 #spanish{
     font-size: 40px;
     line-height: 1.2;
-    font-family: cursive;
+    font-family: 'ZCOOL KuaiLe', cursive;
     font-weight: 300;
 }
 .line{
@@ -88,3 +89,13 @@ p{
 .list:hover{
     background-color: cyan;
 }
+.article:hover{
+    color: deeppink;
+}
+a{
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+
